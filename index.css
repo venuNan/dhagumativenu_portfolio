@@ -4,6 +4,7 @@ html,body{
     box-sizing: border-box;
     width: 100%;
     background-color: rgb(113, 113, 113);
+    line-height: 1.8;
 }
 header{
     background-color: rgb(84, 84, 84);
@@ -36,11 +37,13 @@ header .profession{
 
 .nav_bar{
     background-color: rgb(27, 26, 26);
+    height: fit-content;
 }
 .nav_bar button{
-    padding: 5px;
+    padding: 10px;
     background-color:rgb(27, 26, 26);
     border: none;
+    height: 100%;
     cursor: pointer;
     color: white;
 }
@@ -51,5 +54,19 @@ header .profession{
 }
 
 main{
-    margin: 5px;
+    margin: 10px;
+}
+
+.about_me h3{
+    font-weight: 100;
+    font-size: large;
+    margin-top: 0px;
+}
+
+.about_me h1{
+    margin-bottom: 5px;
+}
+
+main{
+    margin: 10px;
 }
