@@ -3,10 +3,10 @@ html,body{
     margin:0px;
     box-sizing: border-box;
     width: 100%;
-    background-color: rgb(113, 113, 113);
+    background-color: rgb(107, 102, 116);
 }
 header{
-    background-color: rgb(84, 84, 84);
+    background:linear-gradient(to right, rgba(77, 73, 94, 0.845),rgb(48, 55, 48));
     text-align: center;
     width: 100%;
     padding-top: 10px;
@@ -21,7 +21,7 @@ header{
 }
 
 header .image img{
-    height: 100px;
+    height: 140px;
     
 }
 
