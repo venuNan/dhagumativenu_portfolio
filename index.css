@@ -44,19 +44,26 @@ main{
 .nav_bar a{
     text-decoration: none;
     display: inline-block;
-    flex: 1;
+    flex: 70px;
     text-align: center;
     padding: 5px;
+    color: white;
+    flex-wrap: wrap;
 }
 
-.nav_bar a:hover{
-    background-color: bisque;
+.nav_bar a:not(.active):hover{
+    background-color: rgb(95, 84, 84);
     color: black;
-    transition-duration: 0.7s;
+    transition-duration: 0.6s;
 }
+
+.nav_bar .active{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
 
 .nav_bar #hoi{
     flex: 135px;
-
 }
 
