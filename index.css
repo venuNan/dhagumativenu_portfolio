@@ -53,6 +53,9 @@ header .profession{
     flex-basis: 135px;
 }
 
+.nav_bar button:visited{
+    background-color: bisque;
+}
 .nav_bar button:hover{
     background-color: bisque;
     color: black;
