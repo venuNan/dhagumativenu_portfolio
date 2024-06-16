@@ -1,15 +1,18 @@
 html,body{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin:0px;
     box-sizing: border-box;
     width: 100%;
-    background-color: rgb(107, 102, 116);
+    background:linear-gradient(to right, rgba(113, 110, 127, 0.845),rgb(59, 74, 59));
 }
+
 header{
-    background:linear-gradient(to right, rgba(77, 73, 94, 0.845),rgb(48, 55, 48));
+    background:linear-gradient(to right, rgb(64, 56, 103),rgb(76, 112, 76));
     text-align: center;
     width: 100%;
     padding-top: 10px;
+    position: sticky;
+    top: 0%;
 }
 header .image{
     overflow: hidden;
@@ -39,21 +42,24 @@ main{
     background-color: rgb(27, 26, 26);
     display: flex;
     flex-wrap: wrap;
+    position: sticky;
+    top: 35.4%;
 }
 
 .nav_bar a{
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    flex:50px;
+    flex:100px;
     padding: 5px;
     color: white;
     flex-wrap: wrap;
 }
 
+
 .nav_bar a:not(.active):hover{
-    background-color: rgb(95, 84, 84);
-    color: black;
+    background-color: rgb(47, 45, 45);
+    color: rgb(255, 255, 255);
     transition-duration: 0.6s;
 }
 
@@ -66,3 +72,38 @@ main{
     flex: 160px;
 }
 
+main .edu{
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+main .edu .college_place{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+main .edu *{
+    margin: 0%;
+    color: white;
+}
+
+main .edu .college_place #college{
+    font-size: 15px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+main .edu .college_place #place{
+    font-size: 10px;
+    font-weight: 600;
+    align-content: center;
+}
+
+main .edu .course,.cgpa,.duration{
+    font-size:10px;
+}
