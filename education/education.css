@@ -1,0 +1,35 @@
+.edu{
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.edu .college_place{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.edu *{
+    margin: 0%;
+    color: white;
+}
+
+.edu .college_place #college{
+    font-size: 15px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.edu .college_place #place{
+    font-size: 10px;
+    font-weight: 600;
+    align-content: center;
+}
+
+.edu .course,.cgpa,.duration{
+    font-size:10px;
+}
