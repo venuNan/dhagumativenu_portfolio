@@ -31,7 +31,7 @@ header .name{
 }
 header .profession{
     font-size: small;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .nav_bar{
     background-color: rgb(27, 26, 26);
@@ -69,4 +69,13 @@ header .profession{
 }
 .about_me .section{
     text-align: justify;
+}
+
+header .contact_information{
+    margin-bottom: 5px;
+}
+
+header .contact_information a{
+    text-decoration: none;
+    color: black;
 }
