@@ -1,0 +1,23 @@
+.certifications {
+    padding: 20px;
+}
+.certification {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #272323;
+    color: white;
+
+}
+.certification h3 {
+    margin: 0;
+    font-size: 20px;
+}
+.certification p {
+    margin: 5px 0;
+}
+
+.certification a{
+    text-decoration: none;
+    color: green;
+}

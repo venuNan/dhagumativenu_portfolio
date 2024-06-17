@@ -1,0 +1,23 @@
+.achievements {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.achievement {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #272323;
+    color: white;
+}
+.achievement h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.achievement p {
+    margin: 8px 0;
+}
+.achievement a {
+    color: #00ff22;
+    text-decoration: none;
+}
+

@@ -1,0 +1,18 @@
+.hobbies-container {
+    padding: 20px;
+
+}
+.hobby {
+    background-color: #272323;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 10px;line-height: 1.7;
+}
+.hobby h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+.hobby p {
+    margin-bottom: 0;
+}

@@ -7,14 +7,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+
 }
 .skills-container .skills-category{
-    background-color: rgb(117, 121, 121);
+    background-color: #272323;
     width: 220px;
     padding: 15px;
     border-radius: 10px; 
     margin-bottom: 15px;
     height: 150px;
+    color: white;
 }
 
 .skills-container .skills-category *{

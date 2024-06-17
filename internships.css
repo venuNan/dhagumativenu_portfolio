@@ -1,0 +1,29 @@
+.internships{
+    padding: 20px;
+}
+.internship {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #272323;
+}
+.internship h3 {
+    margin: 0;
+    font-size: 22px;
+}
+.internship h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+.internship p {
+    margin: 5px 0;
+}
+.internship .duration {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.internship ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

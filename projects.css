@@ -4,12 +4,15 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+
 }
+
+
 
 .projects-container .projects{
     width: 200px;
-    height: 370px;
-    background-color: rgb(77, 76, 76);
+    height: 360px;
+    background-color: #272323;
     border-radius: 10px;
     padding: 10px;
     color: white;
@@ -20,7 +23,6 @@
     width: 100%;
     display: flex;
     border-radius: 10px;
-    background-color: black;
     background-image: url("calculator.jpg");
     background-size: cover;
     background-repeat: no-repeat;    
