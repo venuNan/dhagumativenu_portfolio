@@ -20,7 +20,7 @@
     display: flex;
     border-radius: 10px;
     background-color: black;
-    background-image: url("../projects/calculator.jpg");
+    background-image: url("calculator.jpg");
     background-size: cover;
     background-repeat: no-repeat;    
 }

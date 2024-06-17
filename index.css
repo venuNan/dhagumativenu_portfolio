@@ -63,3 +63,10 @@ header .profession{
 .nav_bar #hoi{
     flex: 160px;
 }
+
+.about_me{
+    margin: 10px;
+}
+.about_me .section{
+    text-align: justify;
+}
