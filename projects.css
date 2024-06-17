@@ -3,11 +3,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .projects-container .projects{
     width: 200px;
-    height: 350px;
+    height: 370px;
     background-color: rgb(77, 76, 76);
     border-radius: 10px;
     padding: 10px;
@@ -27,6 +28,6 @@
 
 .projects-container .projects a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 255, 72);
     text-align: center;
 }
